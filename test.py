@@ -11,4 +11,4 @@ if myName == "foo":
 else:
     print ("no idea who you are!")
 
-print ("name length is" + str(len(myName)))
+print ("name length is " + str(len(myName)))
