@@ -12,3 +12,10 @@ else:
     print ("no idea who you are!")
 
 print ("name length is " + str(len(myName)))
+
+nameLength = len(myName)
+
+if nameLength > 5:
+    print ("You have a long name!")
+else:
+    print("You have a short name!")
