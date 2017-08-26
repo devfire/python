@@ -1,6 +1,9 @@
+import random
+
 print('hello world!')
 print('name??')
-myName = input()
+#myName = input()
+myName = "foo"
 
 print ('good to meet you ' + myName)
 
@@ -19,3 +22,12 @@ if nameLength > 5:
     print ("You have a long name!")
 else:
     print("You have a short name!")
+
+count = 0
+
+while count < 5:
+    count = count + 1
+    print (count)
+
+for i in range (0, 20):
+    print (random.randint(0, i))
