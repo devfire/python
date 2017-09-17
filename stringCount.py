@@ -9,3 +9,7 @@ for char in testString:
     count[char] += 1
 
 print (count)
+
+for position in range(len(testString), 0, -1):
+    print (testString[position - 1], end='')
+    #print (position)
