@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+
+while true
+do
+	curl -i -H "Content-Type: application/json" -X POST -d '{"geo":{"CityName":"New York City","ContinentCode":"NA","CountryIsoCode":"US"}}' http://localhost/?count=$((RANDOM % 100))
+done
